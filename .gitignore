@@ -1,25 +1,33 @@
-# dependencies
+# Dependencies
 /node_modules
 
-# build output
+# Build output and caches
 /.svelte-kit
 /.vercel
+/.netlify
+/.wrangler
 /build
+
+# Environment variables
+.env
+.env.local
+.env.*
+!.env.example
+!.env.test
 
 # IDEs
 .vscode/
 .idea/
 
-# system files
+# OS files
 .DS_Store
 Thumbs.db
 
-# environment variables
-.env
-.env.local
-.env.*.local
-
-# logs
+# Logs
 npm-debug.log*
 pnpm-debug.log*
 yarn-debug.log*
+
+# Vite cache files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
