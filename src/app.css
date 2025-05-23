@@ -1,1 +1,14 @@
 @import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+@plugin "daisyui";
+
+@font-face {
+    font-family: 'Snoopy';
+    src: url('/fonts/Snoopy.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@theme {
+    --font-snoopy: 'Snoopy', sans-serif;
+}

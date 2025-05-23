@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1,
+        "message": "No creo que haya alguien que sienta lo mismo que yo siento por ti ahora...",
+        "spotifyId": "5wj4E6IsrVtn8IBJQOd0Cl",
+        "song": "Wonderwall",
+        "author": "Oasis"
+    },
+    {
+        "id": 2,
+        "message": "Déjame ser quien brille contigo...",
+        "spotifyId": "62L8HlrCQLvBHKfpu8iqLa",
+        "song": "Slide Away",
+        "author": "Oasis"
+    },
+    {
+        "id": 3,
+        "message": "Sin tu amor no sé vivir, porque sin tu amor yo me voy a morir...",
+        "spotifyId": "4pxHBdRmwqhiv2B5zy3KG3",
+        "song": "Luz de día",
+        "author": "Enanitos Verdes"
+    },
+    {
+        "id": 4,
+        "message": "Hay algo en tu manera de moverte que me atrae como ninguna otra...",
+        "spotifyId": "0pNeVovbiZHkulpGeOx1Gj",
+        "song": "Something",
+        "author": "The Beatles"
+    },
+    {
+        "id": 5,
+        "message": "Solo por mirarte comprendí... porque vine aquí...",
+        "spotifyId": "7kzmrdFcpod2mYHLlbZwwk",
+        "song": "Francés Limón",
+        "author": "Enanitos Verdes"
+    },
+    {
+        "id": 6,
+        "message": "Andábamos sin buscarnos, aunque sabiendo que andábamos para encontrarnos...",
+        "spotifyId": "6d3q0F9VNtdxQUTVlRcet6",
+        "song": "Querer querernos",
+        "author": "Canserbero"
+    },
+    {
+        "id": 7,
+        "message": "Siempre que estoy a solas contigo, me haces sentir completo de nuevo...",
+        "spotifyId": "49edirvFZwWjxAMZJRg1hN",
+        "song": "Lovesong",
+        "author": "The Cure"
+    },
+    {
+        "id": 8,
+        "message": "Toma mi mano, toma mi vida entera también, porque no puedo evitar enamorarme de ti...",
+        "spotifyId": "0pYDUAXXUanILl4FrDtdIt",
+        "song": "Can't Help Falling in Love",
+        "author": "Elvis Presley"
+    },
+    {
+        "id": 9,
+        "message": "Ámame con ternura, ámame dulcemente, nunca me dejes ir...",
+        "spotifyId": "7iBBcw61QVJxI3NDzlpX2E",
+        "song": "Love Me Tender",
+        "author": "Elvis Presley"
+    },
+    {
+        "id": 10,
+        "message": "Estás lo más cerca del cielo que alguna vez estaré...",
+        "spotifyId": "6Qyc6fS4DsZjB2mRW9DsQs",
+        "song": "Iris",
+        "author": "Goo Goo Dolls"
+    },
+    {
+        "id": 11,
+        "message": "No soy nada sin ti...",
+        "spotifyId": "1OTvWduKQV0MQd2gnGM9He",
+        "song": "With Me",
+        "author": "Sum 41"
+    },
+    {
+        "id": 12,
+        "message": "Te puedo yo jurar ante un altar, mi amor sincero. A todo el mundo le puedes contar, que sí te quiero...",
+        "spotifyId": "0RayTAbupCL4o2F54f9tCP",
+        "song": "Contigo",
+        "author": "Los Panchos"
+    },
+    {
+        "id": 13,
+        "message": "Eres mi bien, lo que me tiene extasiado. Porque negar, que estoy de ti enamorado...",
+        "spotifyId": "79BOX5jI2CAhA8d7GD7FGY",
+        "song": "La gloria eres tú",
+        "author": "Los tres diamantes"
+    },
+    {
+        "id": 14,
+        "message": "Te amaré, cariño, siempre, y siempre estaré ahí...",
+        "spotifyId": "2RChe0r2cMoyOvuKobZy44",
+        "song": "Always",
+        "author": "Bon Jovi"
+    },
+    {
+        "id": 15,
+        "message": "Solo prométeme, cariño, que me querrás por siempre...",
+        "spotifyId": "0sKlV58cODrjxGFOyf9IXY",
+        "song": "The Way You Make Me Feel",
+        "author": "Michael Jackson"
+    },
+    {
+        "id": 16,
+        "message": "Estoy tan contento de haberte encontrado...",
+        "spotifyId": "5RdhBLmB4DyFHLglRrfx63",
+        "song": "I'll Be There",
+        "author": "The Jackson 5"
+    },
+    {
+        "id": 17,
+        "message": "Te quiero, te quiero, te quiero y no hago otra cosa que pensar en ti...",
+        "spotifyId": "326en3UBPpDT6ESn6gEF62",
+        "song": "Te quiero",
+        "author": "Hombres G"
+    },
+    {
+        "id": 18,
+        "message": "Ay, amor, tú eres mi religión, tú eres luz, tú eres mi sol...",
+        "spotifyId": "2A1izwuHiZjoxyH6y6W0U4",
+        "song": "Eres mi religión",
+        "author": "Mana"
+    },
+    {
+        "id": 19,
+        "message": "Mis venas tan sutilemente, disfrutan tanto quererte",
+        "spotifyId": "75zvC8d4iozawMJvxt8T1f",
+        "song": "Eres tú",
+        "author": "Carla Morrison"
+    },
+    {
+        "id": 20,
+        "message": "Qué barbaridad fue haber tenido que esperar para vernos de tan cerca...",
+        "spotifyId": "5DgypQHJHqFInEQmBWshuI",
+        "song": "Puesto",
+        "author": "Babasónicos"
+    },
+    {
+        "id": 21,
+        "message": "Dame solo un beso que me alcance hasta morir...",
+        "spotifyId": "7b3k8I1fncAzbk9PHnLkbX",
+        "song": "Luna",
+        "author": "Zóe"
+    },
+    {
+        "id": 22,
+        "message": "Si este mundo fuera mío, tomaría tus sueños y los haría multiplicar...",
+        "spotifyId": "45J4avUb9Ni0bnETYaYFVJ",
+        "song": "Luther",
+        "author": "Kendrick Lamar"
+    },
+    {
+        "id": 23,
+        "message": "Yo podría morir por ti, esta es la vida que elijo...",
+        "spotifyId": "3oP2vxUR2bjFCrU9YolGnM",
+        "song": "I Could Die for You",
+        "author": "Red Hot Chili Peppers"
+    },
+    {
+        "id": 24,
+        "message": "Y todo lo que quiero es que seas feliz...",
+        "spotifyId": "37kTASujIfZZ27NV7PfIrf",
+        "song": "Hard To Concentrate",
+        "author": "Red Hot Chili Peppers"
+    },
+    {
+        "id": 25,
+        "message": "Te necesito más que cualquier cosa en mi vida...",
+        "spotifyId": "37kTASujIfZZ27NV7PfIrf",
+        "song": "Hard To Concentrate",
+        "author": "Red Hot Chili Peppers"
+    }
+]
