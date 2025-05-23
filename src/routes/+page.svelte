@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
+	import LoveModal from '$lib/components/love-modal/LoveModal.svelte';
+
 	let currentIndex = $state(0);
 	let slideCount = $state(0);
 
@@ -20,6 +22,12 @@
 	function previous() {
 		if (currentIndex > 0) currentIndex -= 1;
 	}
+
+	let modalOpen = $state(false);
+	function cerrarModal() {
+		modalOpen = false;
+		console.log('Modal cerrado');
+	}
 </script>
 
 <main class="relative h-screen w-screen overflow-hidden bg-black text-white">
@@ -37,6 +45,19 @@
 		<!-- Slides del universo -->
 		<section class="flex min-w-full items-center justify-center bg-[#1a1a1a] p-8 text-center">
 			<h2 class="text-4xl font-bold">Universo 1: Donde los dos somos estrellas fugaces.</h2>
+			<button class="btn btn-primary m-4" onclick={() => (modalOpen = true)}>
+				Probar mi modal
+			</button>
+			<LoveModal
+				open={modalOpen}
+				onClose={cerrarModal}
+				config={{
+					title: '💕 Te quiero mucho 💕',
+					imageUrl: '/images/photo.png',
+					message: 'Un dibujo de nosotros dos en un universo alternativo.',
+					spotifyId: '3n3Ppam7vgaVa1iaRUc9Lp'
+				}}
+			/>
 		</section>
 
 		<section class="flex min-w-full items-center justify-center bg-[#111122] p-8 text-center">
