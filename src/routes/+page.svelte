@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
+	import Universe1 from '$lib/components/univers/Universe1.svelte';
 	import Universe1Test from '$lib/components/univers/Universe1Test.svelte';
 
 	import LoveModal from '$lib/components/love-modal/LoveModal.svelte';
@@ -44,6 +45,10 @@
 			<h1 class="text-4xl font-bold text-pink-400">Bienvenido a los universos 🌌</h1>
 		</section>
 
+		<section class="flex min-w-full items-center justify-center text-center">
+			<Universe1 />
+		</section>
+
 		<!-- Slides del universo -->
 		<section class="flex min-w-full items-center justify-center bg-[#1a1a1a] text-center">
 			<h2 class="text-4xl font-bold">Universo 1: Donde los dos somos estrellas fugaces.</h2>
@@ -65,7 +70,6 @@
 		<section class="flex min-w-full items-center justify-center bg-[#111122] text-center">
 			<h2 class="text-4xl font-bold">Universo 2: Donde vivimos en una casa flotante.</h2>
 		</section>
-		
 		<section class="flex min-w-full items-center justify-center text-center">
 			<Universe1Test />
 		</section>
