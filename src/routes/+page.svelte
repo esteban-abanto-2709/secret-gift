@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
+	import Universe1Test from '$lib/components/univers/Universe1Test.svelte';
+
 	import LoveModal from '$lib/components/love-modal/LoveModal.svelte';
 
 	let currentIndex = $state(0);
@@ -38,12 +40,12 @@
 		style="transform: translateX({-currentIndex * 100}%);"
 	>
 		<!-- Pantalla de introducción -->
-		<section class="flex min-w-full items-center justify-center bg-black p-8 text-center">
+		<section class="flex min-w-full items-center justify-center bg-black text-center">
 			<h1 class="text-4xl font-bold text-pink-400">Bienvenido a los universos 🌌</h1>
 		</section>
 
 		<!-- Slides del universo -->
-		<section class="flex min-w-full items-center justify-center bg-[#1a1a1a] p-8 text-center">
+		<section class="flex min-w-full items-center justify-center bg-[#1a1a1a] text-center">
 			<h2 class="text-4xl font-bold">Universo 1: Donde los dos somos estrellas fugaces.</h2>
 			<button class="btn btn-primary m-4" onclick={() => (modalOpen = true)}>
 				Probar mi modal
@@ -60,15 +62,16 @@
 			/>
 		</section>
 
-		<section class="flex min-w-full items-center justify-center bg-[#111122] p-8 text-center">
+		<section class="flex min-w-full items-center justify-center bg-[#111122] text-center">
 			<h2 class="text-4xl font-bold">Universo 2: Donde vivimos en una casa flotante.</h2>
 		</section>
-		<section class="flex min-w-full items-center justify-center bg-[#1a0a2a] p-8 text-center">
-			<h2 class="text-4xl font-bold">Universo 3: Donde los lunes son domingos.</h2>
+		
+		<section class="flex min-w-full items-center justify-center text-center">
+			<Universe1Test />
 		</section>
 
 		<!-- Pantalla final -->
-		<section class="flex min-w-full items-center justify-center bg-black p-8 text-center">
+		<section class="flex min-w-full items-center justify-center bg-black text-center">
 			<h1 class="text-4xl font-bold text-green-400">
 				Fin del viaje. Te amo en todos los universos 💚
 			</h1>
