@@ -11,7 +11,8 @@
 	let currentMessageIndex = $state(0);
 
 	onMount(async () => {
-		messages = await loadMessages('universes/between-space-and-time/messages.json');
+		const messageJsonPath = 'data/between-space-and-time.json';
+		messages = await loadMessages(messageJsonPath);
 	});
 
 	const showModalWithMessage = () => {
@@ -40,14 +41,21 @@
 		</div>
 	</FloatingElements>
 
-	<div class="font-snoopy z-30 mt-25 w-full text-center text-4xl text-white">
+	<div
+		class="font-snoopy pointer-events-none relative z-50 mt-25 w-full text-center text-4xl text-white"
+	>
+		<p class="text-sm text-white italic">I love you</p>
+
 		<h1 class="mx-auto max-w-3xs font-bold md:max-w-md" style="text-shadow: 2px 2px 4px #232020;">
 			Between Space and Time
 		</h1>
-		<p class="mt-4 text-sm text-white italic opacity-80">Toca las estrellas</p>
+
+		<p class="mt-8 text-sm text-white italic opacity-80">Toca las estrellas</p>
 	</div>
 
-	<div class="absolute top-[50%] left-[50%] z-30 -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+	<div
+		class="pointer-events-none absolute top-[50%] left-[50%] z-30 -translate-x-1/2 -translate-y-1/2"
+	>
 		<div class="relative mx-auto translate-x-25 translate-y-25 scale-[0.5]">
 			<img
 				src="design/between-space-and-time/me.png"
@@ -57,7 +65,9 @@
 		</div>
 	</div>
 
-	<div class="absolute top-[50%] left-[50%] z-30 -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+	<div
+		class="pointer-events-none absolute top-[50%] left-[50%] z-30 -translate-x-1/2 -translate-y-1/2"
+	>
 		<div class="relative mx-auto -translate-x-25 -translate-y-25 scale-[0.5]">
 			<img
 				src="design/between-space-and-time/you.png"
@@ -67,7 +77,9 @@
 		</div>
 	</div>
 
-	<div class="absolute top-[75%] left-[25%] z-30 -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+	<div
+		class="pointer-events-none absolute top-[75%] left-[25%] z-30 -translate-x-1/2 -translate-y-1/2"
+	>
 		<div class="relative mx-auto -translate-x-25 scale-[2.8]">
 			<img
 				src="design/between-space-and-time/planet 1.png"
@@ -77,7 +89,9 @@
 		</div>
 	</div>
 
-	<div class="absolute top-[25%] left-[75%] z-30 -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+	<div
+		class="pointer-events-none absolute top-[25%] left-[75%] z-30 -translate-x-1/2 -translate-y-1/2"
+	>
 		<div class="relative mx-auto translate-x-20 translate-y-20 scale-[1.1]">
 			<img
 				src="design/between-space-and-time/planet 2.png"

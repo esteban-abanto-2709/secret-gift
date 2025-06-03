@@ -11,7 +11,8 @@
 	let currentMessageIndex = $state(0);
 
 	onMount(async () => {
-		messages = await loadMessages('universes/between-space-and-time/messages.json');
+		const messageJsonPath = 'data/between-space-and-time.json';
+		messages = await loadMessages(messageJsonPath);
 	});
 
 	const showModalWithMessage = () => {
@@ -22,19 +23,16 @@
 	};
 </script>
 
-<!-- <div
-	class="relative h-full w-full overflow-hidden bg-gradient-to-b from-[#2bcbdb] via-[#1faabf] to-[#0065ea]"
-> -->
 <div class="relative h-full w-full overflow-hidden bg-gradient-to-b from-[#2bcbdb] to-[#0065ea]">
 	<FloatingElements
 		percentage={0.9}
-		minScale={0.2}
-		maxScale={1}
+		minScale={0.4}
+		maxScale={1.1}
 		rows={9}
 		cols={16}
 		on:open={showModalWithMessage}
 	>
-		<div class="h-5 w-5 animate-pulse">
+		<div class="h-5 w-5">
 			<img
 				src="design/at-the-bottom-of-the-sea/bubble.png"
 				alt="star"
@@ -43,11 +41,15 @@
 		</div>
 	</FloatingElements>
 
-	<div class="font-snoopy z-30 mt-25 w-full text-center text-4xl text-white">
+	<div
+		class="font-snoopy pointer-events-none relative z-50 mt-25 w-full text-center text-4xl text-white"
+	>
+		<p class="text-sm text-white italic">I love you</p>
+
 		<h1 class="mx-auto max-w-3xs font-bold md:max-w-md" style="text-shadow: 2px 2px 4px #232020;">
 			At the bottom of the sea
 		</h1>
-		<p class="mt-4 text-sm text-white italic opacity-80">Toca las burbujas</p>
+		<p class="mt-8 text-sm text-white italic opacity-80">Toca las burbujas</p>
 	</div>
 
 	<div
