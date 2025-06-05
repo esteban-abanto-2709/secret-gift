@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Sólo un título sin más"
+    },
+    {
+        "message": "Un mensaje sin título ni imagen ni música."
+    },
+    {
+        "imageUrl": "/images/photo.png"
+    },
+    {
+        "spotifyId": "4VqPOruhp5EdPBeR92t6lQ"
+    },
+    {
+        "title": "Con mensaje y título",
+        "message": "Este amor no cabe en palabras, pero lo intento de todos modos."
+    },
+    {
+        "title": "Amor en canción",
+        "spotifyId": "3n3Ppam7vgaVa1iaRUc9Lp"
+    },
+    {
+        "title": "Recuerdo en imagen",
+        "imageUrl": "/images/photo.png"
+    },
+    {
+        "message": "El universo nos juntó y ahora somos dos estrellas orbitando juntas.",
+        "imageUrl": "/images/photo.png"
+    },
+    {
+        "title": "La playlist de nuestro amor",
+        "message": "Poné play y recordá nuestra primera cita.",
+        "spotifyId": "7ouMYWpwJ422jRcDASZB7P"
+    },
+    {
+        "title": "Todo incluido",
+        "message": "Te amo en cada nota, en cada imagen, en cada palabra.",
+        "imageUrl": "/images/photo.png",
+        "spotifyId": "6habFhsOp2NvshLv26DqMb"
+    },
+    {
+        "title": "Imagen y mensaje",
+        "message": "¿Recordás esa noche estrellada? Yo sí.",
+        "imageUrl": "/images/photo.png"
+    }
+]

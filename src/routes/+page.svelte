@@ -7,6 +7,7 @@
 	import Universe1 from '$lib/components/univers/Universe1.svelte';
 	import Universe2 from '$lib/components/univers/Universe2.svelte';
 	import Universe3 from '$lib/components/univers/Universe3.svelte';
+	import Universe4 from '$lib/components/univers/Universe4.svelte';
 	import Universe1Test from '$lib/components/univers/Universe1Test.svelte';
 
 	let currentIndex = $state(0);
@@ -60,8 +61,8 @@
 			<Universe3 />
 		</section>
 
-		<section class="flex min-w-full items-center justify-center bg-[#111122] text-center">
-			<h2 class="text-4xl font-bold">Universo 3: Donde vivimos en una casa flotante.</h2>
+		<section class="flex min-w-full items-center justify-center text-center">
+			<Universe4 />
 		</section>
 
 		<section class="flex min-w-full items-center justify-center text-center">
