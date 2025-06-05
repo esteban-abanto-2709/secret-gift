@@ -48,11 +48,11 @@
 </script>
 
 {#each generateElements() as el (el.id)}
-	<div
+	<button
 		class="absolute flex items-center justify-center"
 		style="left: {el.x}%; top: {el.y}%; transform: scale({el.scale});"
 		onclick={handleClick}
 	>
 		{@render children?.()}
-	</div>
+	</button>
 {/each}

@@ -60,7 +60,7 @@
 	>
 		<div class="relative mx-auto translate-y-10">
 			<img
-				src="design/drifting-floating-together/nutrias-2.png"
+				src="design/drifting-floating-together/nutrias.png"
 				alt="Nutrias"
 				class="h-auto w-[400px] object-contain"
 			/>
