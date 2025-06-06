@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
-	import { onMount } from 'svelte';
 
 	const { percentage = 1, minScale = 0.5, maxScale = 1, rows = 9, cols = 16, children } = $props<{
 		percentage: number;
@@ -10,10 +9,6 @@
 		cols: number;
 		children?: () => any;
 	}>();
-
-	onMount(() => {
-		console.log(generateElements().length);
-	});
 
 	const dispatch = createEventDispatcher();
 

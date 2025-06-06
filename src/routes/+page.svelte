@@ -9,6 +9,7 @@
 	import Universe3 from '$lib/components/univers/Universe3.svelte';
 	import Universe4 from '$lib/components/univers/Universe4.svelte';
 	import Universe5 from '$lib/components/univers/Universe5.svelte';
+	import Universe6 from '$lib/components/univers/Universe6.svelte';
 
 	let currentIndex = $state(0);
 	let slideCount = $state(0);
@@ -52,17 +53,21 @@
 		<section class="flex min-w-full items-center justify-center text-center">
 			<Universe1 />
 		</section>
+		
+		<section class="flex min-w-full items-center justify-center text-center">
+			<Universe6 />
+		</section>
 
 		<section class="flex min-w-full items-center justify-center text-center">
 			<Universe2 />
 		</section>
-
+		
 		<section class="flex min-w-full items-center justify-center text-center">
-			<Universe3 />
+			<Universe4 />
 		</section>
 
 		<section class="flex min-w-full items-center justify-center text-center">
-			<Universe4 />
+			<Universe3 />
 		</section>
 		
 		<section class="flex min-w-full items-center justify-center text-center">
