@@ -9,7 +9,6 @@
 	import Universe3 from '$lib/components/univers/Universe3.svelte';
 	import Universe4 from '$lib/components/univers/Universe4.svelte';
 	import Universe5 from '$lib/components/univers/Universe5.svelte';
-	import Universe1Test from '$lib/components/univers/Universe1Test.svelte';
 
 	let currentIndex = $state(0);
 	let slideCount = $state(0);
@@ -68,10 +67,6 @@
 		
 		<section class="flex min-w-full items-center justify-center text-center">
 			<Universe5 />
-		</section>
-
-		<section class="flex min-w-full items-center justify-center text-center">
-			<Universe1Test />
 		</section>
 
 		<!-- Pantalla final -->
