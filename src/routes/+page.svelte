@@ -4,12 +4,14 @@
 	import LoveModal from '$lib/components/love-modal/LoveModal.svelte';
 	import { modalOpen, modalConfig, closeModal, openModal } from '$lib/stores/modal';
 
+	import IntroUniverse from '$lib/components/univers/IntroUniverse.svelte';
 	import Universe1 from '$lib/components/univers/Universe1.svelte';
 	import Universe2 from '$lib/components/univers/Universe2.svelte';
 	import Universe3 from '$lib/components/univers/Universe3.svelte';
 	import Universe4 from '$lib/components/univers/Universe4.svelte';
 	import Universe5 from '$lib/components/univers/Universe5.svelte';
 	import Universe6 from '$lib/components/univers/Universe6.svelte';
+	import OutroUniverse from '$lib/components/univers/OutroUniverse.svelte';
 
 	let currentIndex = $state(0);
 	let slideCount = $state(0);
@@ -45,15 +47,14 @@
 		class="flex h-full w-full transition-transform duration-500"
 		style="transform: translateX({-currentIndex * 100}%);"
 	>
-		<!-- Pantalla de introducción -->
-		<section class="flex min-w-full items-center justify-center bg-[#1a1a1a] text-center">
-			<h1 class="text-4xl font-bold text-pink-400">Nosotros en otros universos</h1>
+		<section class="flex min-w-full items-center justify-center text-center">
+			<IntroUniverse />
 		</section>
 
 		<section class="flex min-w-full items-center justify-center text-center">
 			<Universe1 />
 		</section>
-		
+
 		<section class="flex min-w-full items-center justify-center text-center">
 			<Universe6 />
 		</section>
@@ -61,7 +62,7 @@
 		<section class="flex min-w-full items-center justify-center text-center">
 			<Universe2 />
 		</section>
-		
+
 		<section class="flex min-w-full items-center justify-center text-center">
 			<Universe4 />
 		</section>
@@ -69,16 +70,13 @@
 		<section class="flex min-w-full items-center justify-center text-center">
 			<Universe3 />
 		</section>
-		
+
 		<section class="flex min-w-full items-center justify-center text-center">
 			<Universe5 />
 		</section>
 
-		<!-- Pantalla final -->
-		<section class="flex min-w-full items-center justify-center bg-black text-center">
-			<h1 class="text-4xl font-bold text-green-400">
-				Fin del viaje. Te amo en todos los universos 💚
-			</h1>
+		<section class="flex min-w-full items-center justify-center text-center">
+			<OutroUniverse />
 		</section>
 	</div>
 
