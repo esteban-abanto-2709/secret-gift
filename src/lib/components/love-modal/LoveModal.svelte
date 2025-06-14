@@ -9,7 +9,7 @@
 		config: LoveModalConfig | null;
 	}>();
 
-	let currentTrackId = $state('stop');
+	let currentTrackId = $state('6habFhsOp2NvshLv26DqMb');
 
 	$effect(() => {
 		if (open) {
@@ -18,7 +18,7 @@
 	});
 
 	function handleClose() {
-		currentTrackId = 'stop';
+		currentTrackId = '6habFhsOp2NvshLv26DqMb';
 		onClose();
 	}
 </script>

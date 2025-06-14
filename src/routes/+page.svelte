@@ -81,20 +81,20 @@
 	</div>
 
 	<!-- Botones de control -->
-	<div class="absolute bottom-6 left-1/2 z-10 flex -translate-x-1/2 gap-4">
+	<div class="absolute bottom-6 left-1/2 z-10 inline-flex -translate-x-1/2">
 		<button
 			onclick={previous}
-			class="bg-opacity-10 hover:bg-opacity-20 rounded bg-white px-4 py-2 text-black disabled:opacity-30"
+			class="bg-opacity-10 hover:bg-opacity-20 rounded-l bg-white px-4 py-2 font-bold text-black disabled:opacity-30"
 			disabled={currentIndex === 0}
 		>
-			⟵
+			⟵ Prev
 		</button>
 		<button
 			onclick={next}
-			class="bg-opacity-10 hover:bg-opacity-20 rounded bg-white px-4 py-2 text-black disabled:opacity-30"
+			class="bg-opacity-10 hover:bg-opacity-20 rounded-r bg-white px-4 py-2 font-bold text-black disabled:opacity-30"
 			disabled={currentIndex === slideCount - 1}
 		>
-			⟶
+			Next ⟶
 		</button>
 	</div>
 

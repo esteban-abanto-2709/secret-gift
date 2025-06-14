@@ -28,6 +28,7 @@ export async function loadMessages(relativePath: string): Promise<LoveModalConfi
 			spotifyId: item.spotifyId
 		}));
 
+		// return parsedData;
 		return shuffleArray(parsedData);
 	} catch (error) {
 		console.error('Error cargando LoveModalConfig:', error);
