@@ -11,7 +11,7 @@
 	let currentMessageIndex = $state(0);
 
 	onMount(async () => {
-		const messageJsonPath = 'data/between-space-and-time.json';
+		const messageJsonPath = 'data/drifting-floating-together.json';
 		messages = await loadMessages(messageJsonPath);
 	});
 
